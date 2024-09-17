@@ -1,0 +1,52 @@
+.TodoFormat{
+    width: 350px;
+    padding: 40px 50px;
+    margin: 150px auto 0;
+    background-color: whitesmoke;    
+}
+.appHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+}
+.dataArea{
+    display: flex;
+    color: #333;
+}
+.leftDate{
+    .dateArea{
+        margin-right: 5px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+}
+.rightDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .MonthArea{
+        font-size: 14px;
+    }
+    .YearArea{
+        font-size: 14px;
+    }
+}
+.Title{
+    color: skyblue;
+    font-size: 35px;
+}
+.Body{
+    display: flex;
+    padding: 12px 0 20px;
+}
+.AddItem{
+    flex: 1;
+    line-height: 1.5;
+    outline: none;
+    border: none;
+}
+.AddButton{
+   
+}
